@@ -1,0 +1,91 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+main{
+  height:500px;
+  width:500px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lede{
+color:#02020b;
+border-radius:10px;
+width: 50px;
+height: 50px;
+font-size: xx-large;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.container{
+  display: grid;
+  gap:20px;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: auto auto; 
+}
+
+
+button{
+  width: 150px;
+  height:40px;
+  color: #fff;
+  background: rgb(18,4,255);
+  background: linear-gradient(37deg, rgba(18,4,255,0.7861738445378151) 0%, rgba(255,0,0,0.7861738445378151) 100%);
+  cursor: pointer;
+  font-size: 1.3em;
+  border: none;
+  border-radius: 10px;
+
+}
+
+p,.game{color:#02020b}
+
+.game--desc{
+  margin-top: -30px;
+}
